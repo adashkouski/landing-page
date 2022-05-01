@@ -7,8 +7,28 @@ body{
     line-height: 1.5;
 }
 
+ul{
+    list-style: none;
+}
+
 .container{
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 30px;
+}
+
+.navbar{
+    background: #1f2950;
+    color: #f9faf8;
+    height: 50px;
+}
+
+
+.header{
+    background-color: #1f2937;
+}
+
+h1{
+    color: #f9faf8;
+    font: 48px ;
 }
