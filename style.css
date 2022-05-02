@@ -76,10 +76,31 @@ ul{
     min-height: 500px;
 }
 
+.header .button{
+    background-color: #3882f6;
+    border:none;
+    color:#fff;
+    padding: 5px 10px;
+    margin-top: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    border-radius: 80px;
+    transition-duration: 0.4s;
+}
+
+.header .button:hover{
+    background:url(https://64.media.tumblr.com/0bcfa270842ab9a281f0225c124ea0a9/tumblr_mz6m6svM5k1qii3jvo1_250.gifv);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
 h1{
     color: #f9faf8;
     font-size: 48px;
-    font-weight:800;
+    letter-spacing: 7px;
     line-height: 1.5;
 }
 
