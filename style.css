@@ -115,24 +115,46 @@ h1{
 }
 
 h2{
+    display: block;
+    text-align: center;
     font-size: 36px;
     color: #1f2937;
-    padding: 20px 20px;
-    display: flex;
-    justify-content:center;
+    padding: 40px;
 }
 
 .box img{
     width: 350px;
     height: 350px;
+    border-radius: 15px;
+    border: solid #3882f6;
+    box-shadow: 5px 5px 5px #1f2937;
+    transition: all .6s ease-in-out;
 }
 
-.boxes .container{
+.box img:hover{
+    transition: ease 0.7s;
+    transform: scale(1.1);
+}
+
+.box:hover{
+    color: #3882f6;
+}
+
+.boxSection{
+    display: flex; 
+}
+
+.box{
+    color: #1f293700;
     display: flex;
-    align-items: center ;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    transition: ease-in .5s;
 }
 
+.box p{
+    padding-top: 50px;
+}
 
 .quote{
     min-height: 400px;
