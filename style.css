@@ -10,7 +10,6 @@ body{
     line-height: 1.5;
 }
 
-
 ul{
     list-style: none;
 }
@@ -179,4 +178,24 @@ h2{
 }
 .quote .quote-author::before{
     content: "\2014";
+}
+
+.actionCall{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    border: solid 2px #1f2937;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #1f2937;
+    color: #f9faf8;
+    margin: 80px auto 80px auto;
+    width: 1000px;
+    height: 160px;
+}
+
+h4{
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 1.2px;
 }
