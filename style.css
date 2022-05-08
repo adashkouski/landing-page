@@ -21,17 +21,17 @@ ul{
 }
 
 .navbar{
-    background-color:rgb(55, 66, 82);
-    height: 50px;
+    background-color:#f9faf8;
+    height: 70px;
 }
 
 .logo{
     font-size: 24px;
-    color: #f9faf8;
+    color: #1f2937;
 }
 
 .navbar a {
-    color: #e5e7eb;
+    color: #1f2937;
     font-size: 18px;
     text-decoration: none;
     font-weight:800;
@@ -55,7 +55,7 @@ ul{
 }
 
 .navbar ul li{
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .header img{
