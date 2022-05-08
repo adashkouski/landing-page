@@ -225,3 +225,23 @@ h4{
     color: #f9faf8;
     letter-spacing: 2.5px;
 }
+
+@media(max-width: 768px){
+    .header .container{
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .boxes .boxSection{
+        display: block;
+        text-align: center;
+    }
+
+    .actionCall{
+        flex-direction: column;
+        text-align: center;
+        width: auto;
+    }
+
+}
