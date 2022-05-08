@@ -133,6 +133,7 @@ h2{
 .box img:hover{
     transition: ease 0.7s;
     transform: scale(1.1);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .box:hover{
@@ -156,7 +157,7 @@ h2{
 }
 
 .quote{
-    min-height: 400px;
+    min-height: 300px;
     background-color: #e5e7eb;
     text-align: center;
     display: flex;
@@ -167,7 +168,7 @@ h2{
 .quote .quote-main{
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: bold
 }
 
 .quote .quote-author{
