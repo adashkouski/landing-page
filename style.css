@@ -229,8 +229,13 @@ h4{
 
 @media(max-width: 768px){
     .navbar .container{
-        flex-direction: column;
+        display:inline;
         text-align: center;
+    }
+
+    .navbar .nav{
+        flex-direction:row;
+      
     }
 
     .header .container{
