@@ -38,7 +38,7 @@ ul{
 }
 
 .navbar a:hover{
-    color:skyblue;
+    color:rgb(13, 127, 172);
     text-decoration: underline;
 }
 
@@ -234,7 +234,7 @@ h4{
     }
 
     .boxes .boxSection{
-        display: block;
+        flex-direction: column;
         text-align: center;
     }
 
