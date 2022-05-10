@@ -220,11 +220,16 @@ h4{
 }
 
 .footer{
-    display: flex;
     padding: 30px 50px;
     background-color: #1f2937;
     color: #f9faf8;
     letter-spacing: 2.5px;
+}
+
+.footer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media(max-width: 768px){
