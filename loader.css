@@ -6,22 +6,33 @@
     color:#1f2937;
 }
 .loader_main::before{
+    display: inline;
+    overflow: hidden;
+    vertical-align:text-bottom;
     content: '\2014';
+    animation: dash 2s infinite;
 }
 .loader_main::after{
     content: '\2014';
+    animation: dash steps(4, end) 2s infinite;
 }
 
 .loader_quote::after{
     content: '\2026';
+    display: inline-block;
     overflow: hidden;
     vertical-align:text-bottom;
-    animation: dots steps(4, end) 2s infinite;
+    animation: dots steps(6, end) 1s infinite;
     width: 0px;
 }
 @keyframes dots{
-    to{
+    to {
         width: 1.25em;
     }
+}
 
+@keyframes dash{
+    to {
+        width: 1.25em;
+    }
 }
