@@ -46,3 +46,13 @@
        color:white;
     }
 }
+
+@media(max-width: 768px){
+    #loader{
+        font-size: 30px;
+    }
+
+    .loader_quote{
+        font-size: 15px;
+    }
+}
