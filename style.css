@@ -69,6 +69,7 @@ ul{
 .header img{
     width: 100%;
     height: 350px;
+    object-fit: cover;
     margin: 50px;
     border-style: solid;
     border: double silver 10px;
@@ -132,6 +133,7 @@ h2{
 .box img{
     width: 350px;
     height: 350px;
+    object-fit: cover;
     border-radius: 15px;
     border: solid #3882f6;
     box-shadow: 5px 5px 5px #1f2937;
@@ -145,7 +147,7 @@ h2{
 }
 
 .box:hover{
-    color: #3882f6;
+    color: #1f2937;
 }
 
 .boxSection{
