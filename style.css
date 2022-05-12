@@ -9,6 +9,12 @@ body{
     line-height: 1.5;
 }
 
+.loaderWrap{
+    opacity: 0;
+    display: none;
+    transition: opacity 2s ease-in;
+}
+
 ul{
     list-style: none;
 }
@@ -257,3 +263,4 @@ h4{
         width: auto;
     }
 }
+
