@@ -8,13 +8,13 @@
 body{
     line-height: 1.5;
 }
-
+/*
 .loaderWrap{
     opacity: 0;
     display: none;
     transition: opacity 2s ease-in;
 }
-
+*/
 ul{
     list-style: none;
 }
@@ -132,7 +132,7 @@ h2{
 
 .box img{
     width: 350px;
-    height: 350px;
+    height : 350px;
     object-fit: cover;
     border-radius: 15px;
     border: solid #3882f6;
@@ -257,6 +257,12 @@ h4{
     .boxes .boxSection{
         flex-direction: column;
         text-align: center;
+    }
+
+    .boxes img{
+        width: 320px;
+        height: 320px;
+        object-fit: cover;
     }
 
     .actionCall{
