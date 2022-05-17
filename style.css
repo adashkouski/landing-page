@@ -258,6 +258,11 @@ h4{
         text-align: center;
     }
 
+    .header img{
+        width: 350px;
+        height: 350px;
+    }
+
     .boxes .boxSection{
         flex-direction: column;
         text-align: center;
