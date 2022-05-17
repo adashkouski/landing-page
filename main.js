@@ -9,7 +9,7 @@ function init() {
         main.style.display = 'initial';
         setTimeout(()=> (main.style.opacity = 1), 50 );
         
-    }, 4000);
+    }, 3000);
 }
 
 init();
