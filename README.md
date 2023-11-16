@@ -3,13 +3,13 @@ Welcome to Club Amok Inn.
 The place, where you can hide and think about your life, or just have a rest from your daily routine
 
 This is the project for The Odin Project, which converted into a Hotel landing page. I decided to put all my
-knowledge into this, and more, such as loader (first JS code, which I'm still struggling with), shadow properties when hoovering the boxes, and whatnot.
+knowledge into this, and more, such as the loader, shadow properties when hoovering the boxes, and whatnot.
 
-It took me a couple of weeks, (I think 3 weeks?) to finish it. Note, that I wasn't able to work on it daily,
+It took me a couple of weeks to finish it. Note, that I wasn't able to work on it daily,
 but my goal was to at least push a couple of commits the next day or even more.
 
-Also, some HTML sections still have container div - that was my idea at the beginning, but did not work quite well...that's why the project changed over time. 
-The CSS portion also needs cleaning, as there's still something I can remove or change. We'll see.
+Also, some HTML sections still have container div - that was my idea at the beginning, but it did not work quite well...that's why the project changed over time. 
+The CSS portion also needs cleaning, as there's still something I can remove or change. 
 
 
 The landing page itself is really close to the requested styling but with my own tweaks (for learning and fun purposes). The overall description is made in a serious-funny style, which gives this landing page a specific "taste"...oh, and some Easter Eggs out there too :)
